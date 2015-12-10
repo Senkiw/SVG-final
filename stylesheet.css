@@ -1,0 +1,37 @@
+img{
+	max-height: 100px;
+	max-width: 100px;
+	cursor: pointer;
+}
+
+.m-enabled{
+	display: none;
+}
+
+.m-on{
+	display:none;
+}
+
+.mic:hover .m-enabled{
+	display: block;
+}
+
+.mic:hover .m-disabled{
+	display: none;
+}
+
+.h-enabled{
+	display: none;
+}
+
+.h-on{
+	display:none;
+}
+
+.headphone:hover .h-enabled{
+	display: block;
+}
+
+.headphone:hover .h-disabled{
+	display: none;
+}
